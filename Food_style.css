@@ -1,0 +1,191 @@
+body{
+    font-family: 'Noto Sans Arabic', sans-serif;
+}
+#Website_bar{
+    width: 100%;
+    background-color: #0eaceb;
+    align-items: center;
+    padding: 0%;
+    margin: 0%;
+}
+
+#bar_text{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 10px;
+    margin-left: 36%;
+    display: inline-block;
+    font-family: 'Noto Sans Arabic', sans-serif;
+}
+
+#Lang_button{
+   margin-block: 15px;
+   margin-left: 60px;
+   font-family: 'Noto Sans Arabic', sans-serif;
+   border-radius: 15px;
+   background-color: white;
+   border: none;
+   padding: 10px;
+}
+
+#logo_place{
+    background-color: #38b6ff;
+    width: 100%;
+    height: 300px;
+    padding: 0%;
+    margin: 0%;
+    text-align: center;
+}
+
+#logo_image{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#Food_button{
+    width: 50%;
+    color: white;
+    background-color: #39B4E4;
+    padding: 10px;
+    border-radius: 40px;
+    border: none;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Noto Sans Arabic', sans-serif;
+}
+
+#Drinks_button{
+    text-decoration: none;
+    width: 48%;
+    color: white;
+    background: none;
+    padding: 10px;
+    border-radius: 40px;
+    margin: 8px;
+    border: none;
+    font-size: 25px;
+    font-weight: bold;
+    transition: transform 0.4s ease;
+    transition: 0.4s ease; 
+    font-family: 'Noto Sans Arabic', sans-serif;
+}
+
+#Drinks_button:hover{
+    background: rgba(233, 233, 233, 0.25);
+    transform: translateY(-2px);
+    
+}
+
+nav{
+    margin-top: 20px;
+    margin-inline: 40px;
+    background: linear-gradient(to right, #8c52ff, #5298e4);
+    border-radius: 40px;   
+}
+
+.Yogurt-card{
+    background:#ffffff;
+    width:700px;
+    display:flex;
+    align-items:center;
+    padding:20px;
+    border-radius:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    border: 1px solid rgb(202, 202, 202);
+    margin-left: 48%;
+    margin-top: 20px;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.Yogurt-card:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 15px 25px rgba(43, 147, 251, 0.2);
+}
+
+.Yogurt-img{
+    width:120px;
+    height:120px;
+    border-radius:20px;
+    object-fit:cover;
+    margin-left:20px;
+}
+
+.Yogurt-content{
+    flex:1;
+    text-align:right;
+}
+
+.Yogurt-content h2{
+    color:#1ca0f8;
+    margin:0 0 10px 0;
+}
+
+.Yogurt-content p{
+    color:#454545;
+    margin-bottom:10px;
+    font-weight: bold;
+}
+
+.Yogurt-price{
+    font-size:22px;
+    font-weight:bold;
+}
+
+.Rice_with_milk-card{
+    background:#ffffff;
+    width:700px;
+    display:flex;
+    align-items:center;
+    padding:20px;
+    border-radius:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    border: 1px solid rgb(202, 202, 202);
+    margin-left: 48%;
+    margin-top: 20px;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.Rice_with_milk-card:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 15px 25px rgba(43, 147, 251, 0.2);
+}
+
+.Rice_with_milk-img{
+    width:120px;
+    height:120px;
+    border-radius:20px;
+    object-fit:cover;
+    margin-left:20px;
+}
+
+.Rice_with_milk-content{
+    flex:1;
+    text-align:right;
+}
+
+.Rice_with_milk-content h2{
+    color:#1ca0f8;
+    margin:0 0 10px 0;
+}
+
+.Rice_with_milk-content p{
+    color:#454545;
+    margin-bottom:10px;
+    font-weight: bold;
+}
+
+.Rice_with_milk-price{
+    font-size:22px;
+    font-weight:bold;
+}
+
