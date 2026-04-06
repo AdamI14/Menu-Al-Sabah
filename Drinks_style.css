@@ -1,0 +1,155 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
+}
+
+#Website_bar{
+    width: 100%;
+    background-color: #0eaceb;
+    align-items: center;
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+}
+
+#bar_text{
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+    padding: 0px;
+    margin: 0px;
+    margin-right: 140px;
+    text-align: center;
+    flex: 1;
+    
+}
+
+#Lang_button{
+   margin-block: 15px;
+   margin-left: 60px;
+   border-radius: 15px;
+   background-color: white;
+   border: none;
+   padding: 10px;
+   transition: transform 0.4s ease;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
+}
+
+
+#Lang_button:hover{
+    transform: translateY(-3px);
+}
+
+#logo_place{
+    background-color: #38b6ff;
+    width: 100%;
+    height: 300px;
+    padding: 0%;
+    margin: 0%;
+    text-align: center;
+}
+
+#logo_image{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#Food_button{
+    width: 50%;
+    color: white;
+    background: none;
+    padding: 10px;
+    border-radius: 40px;
+    border: none;
+    font-size: 25px;
+    font-weight: 600;
+    transition: transform 0.4s ease;
+    transition: 0.4s ease; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
+}
+   
+#Food_button:hover{
+    background: rgba(233, 233, 233, 0.25);
+    transform: translateY(-2px);
+    
+}
+
+
+#Drinks_button{
+    text-decoration: none;
+    width: 48%;
+    color: white;
+    background-color: #39B4E4;
+    padding: 10px;
+    border-radius: 40px;
+    margin: 8px;
+    border: none;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
+}
+    
+
+nav{
+    margin-top: 20px;
+    margin-inline: 40px;
+    background: linear-gradient(to right, #8c52ff, #5298e4);
+    border-radius: 40px;   
+}
+
+.Product-card{
+    background:#ffffff;
+    width:700px;
+    display:flex;
+    align-items:center;
+    padding:20px;
+    border-radius:20px;
+    border: 1px solid rgb(202, 202, 202);
+    margin-left: 48%;
+    margin-top: 20px;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
+}
+
+
+.Product-card:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 15px 25px rgba(43, 147, 251, 0.2);
+}
+
+.Product-img{
+    width:120px;
+    height:120px;
+    border-radius:20px;
+    object-fit:cover;
+    margin-left:20px;
+}
+
+.Product-content{
+    flex:1;
+    text-align:right;
+}
+
+.Product-content h2{
+    color:#1ca0f8;
+    margin:0 0 10px 0;
+    font-weight: 600;
+}
+
+.Product-content p{
+    color:#454545;
+    margin-bottom:10px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.Product-price{
+    font-size:22px;
+    font-weight:bold;
+}
